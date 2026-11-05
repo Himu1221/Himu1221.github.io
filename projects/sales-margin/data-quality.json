@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "check": "Expected schema",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Trim header whitespace; require the documented 16-column schema."
+    },
+    {
+      "check": "Nonempty source",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "At least one source observation is required."
+    },
+    {
+      "check": "Blank source rows",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Blank rows excluded; retained records are otherwise preserved."
+    },
+    {
+      "check": "Missing cells",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "All supplied fields are required for this source contract."
+    },
+    {
+      "check": "Exact duplicate rows",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "No transaction key proves duplication; report and retain."
+    },
+    {
+      "check": "Numeric types and finite values",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Units and financial fields must contain finite numbers."
+    },
+    {
+      "check": "Date types",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Date must be parsed as an Excel datetime."
+    },
+    {
+      "check": "Gross less discounts reconciles to sales",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Tolerance less than 0.02 source monetary units per observation."
+    },
+    {
+      "check": "Sales less COGS reconciles to profit",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Tolerance less than 0.02 source monetary units per observation."
+    },
+    {
+      "check": "Negative units or cost inputs",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Investigate adjustments; do not automatically delete."
+    },
+    {
+      "check": "Discounts above gross sales",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Investigate commercial context."
+    },
+    {
+      "check": "Date attributes match",
+      "exceptions": 0,
+      "status": "PASS",
+      "explanation": "Year, month number, and month name must agree with Date."
+    },
+    {
+      "check": "Full year coverage",
+      "exceptions": 1,
+      "status": "WARN",
+      "explanation": "Month counts by year: {'2013': 4, '2014': 12}. Partial years must not be compared as full years."
+    }
+  ],
+  "retained_records": 700,
+  "blocking_failures": 0,
+  "warning_checks": 1
+}

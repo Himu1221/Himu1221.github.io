@@ -1,0 +1,835 @@
+{
+  "comparable_period": [
+    {
+      "year": 2013,
+      "months_covered": 4,
+      "records": 25,
+      "sales": 4049562.5,
+      "profit": -193757.5,
+      "previous_sales": null,
+      "previous_profit": null,
+      "margin": -0.04784652663096322,
+      "sales_growth": null,
+      "profit_change": null
+    },
+    {
+      "year": 2014,
+      "months_covered": 4,
+      "records": 30,
+      "sales": 5961947.5,
+      "profit": -221652.5,
+      "previous_sales": 4049562.5,
+      "previous_profit": -193757.5,
+      "margin": -0.037177868473347,
+      "sales_growth": 0.47224484126371674,
+      "profit_change": -27895.0
+    }
+  ],
+  "discounts": [
+    {
+      "discount_band": "High",
+      "records": 33,
+      "gross_sales": 7449312.5,
+      "discounts": 920341.25,
+      "sales": 6528971.25,
+      "profit": -622368.75,
+      "discount_rate": 0.1235471394172281,
+      "margin": -0.09532416764739161,
+      "gross_loss": 622368.75
+    },
+    {
+      "discount_band": "Medium",
+      "records": 25,
+      "gross_sales": 5490062.5,
+      "discounts": 374555.0,
+      "sales": 5115507.5,
+      "profit": -154952.5,
+      "discount_rate": 0.06822417777575392,
+      "margin": -0.030290738504439686,
+      "gross_loss": 154952.5
+    },
+    {
+      "discount_band": "Low",
+      "records": 36,
+      "gross_sales": 6604625.0,
+      "discounts": 162409.375,
+      "sales": 6442215.625,
+      "profit": 101775.625,
+      "discount_rate": 0.024590249257149345,
+      "margin": 0.015798233235945126,
+      "gross_loss": 0
+    },
+    {
+      "discount_band": "None",
+      "records": 6,
+      "gross_sales": 1525000.0,
+      "discounts": 0.0,
+      "sales": 1525000.0,
+      "profit": 61000.0,
+      "discount_rate": 0.0,
+      "margin": 0.04,
+      "gross_loss": 0
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2013-09",
+      "records": 5,
+      "sales": 637476.25,
+      "profit": -47723.75,
+      "margin": -0.07486357334881104,
+      "previous_month_profit": null,
+      "profit_change": null
+    },
+    {
+      "month": "2013-10",
+      "records": 10,
+      "sales": 1141272.5,
+      "profit": 21432.5,
+      "margin": 0.018779476417770516,
+      "previous_month_profit": -47723.75,
+      "profit_change": 69156.25
+    },
+    {
+      "month": "2013-11",
+      "records": 5,
+      "sales": 1222021.25,
+      "profit": -70978.75,
+      "margin": -0.058083073432642844,
+      "previous_month_profit": 21432.5,
+      "profit_change": -92411.25
+    },
+    {
+      "month": "2013-12",
+      "records": 5,
+      "sales": 1048792.5,
+      "profit": -96487.5,
+      "margin": -0.09199865559679346,
+      "previous_month_profit": -70978.75,
+      "profit_change": -25508.75
+    },
+    {
+      "month": "2014-01",
+      "records": 5,
+      "sales": 892823.75,
+      "profit": -60516.25,
+      "margin": -0.06778073499948899,
+      "previous_month_profit": -96487.5,
+      "profit_change": 35971.25
+    },
+    {
+      "month": "2014-02",
+      "records": 5,
+      "sales": 926216.25,
+      "profit": -20943.75,
+      "margin": -0.022612159957245404,
+      "previous_month_profit": -60516.25,
+      "profit_change": 39572.5
+    },
+    {
+      "month": "2014-03",
+      "records": 5,
+      "sales": 1077126.25,
+      "profit": -10073.75,
+      "margin": -0.009352431992071496,
+      "previous_month_profit": -20943.75,
+      "profit_change": 10870.0
+    },
+    {
+      "month": "2014-04",
+      "records": 5,
+      "sales": 1649416.875,
+      "profit": 2416.875,
+      "margin": 0.0014652905742825021,
+      "previous_month_profit": -10073.75,
+      "profit_change": 12490.625
+    },
+    {
+      "month": "2014-05",
+      "records": 5,
+      "sales": 973555.0,
+      "profit": -51125.0,
+      "margin": -0.052513725470055624,
+      "previous_month_profit": 2416.875,
+      "profit_change": -53541.875
+    },
+    {
+      "month": "2014-06",
+      "records": 10,
+      "sales": 1261932.5,
+      "profit": -17027.5,
+      "margin": -0.013493193970358953,
+      "previous_month_profit": -51125.0,
+      "profit_change": 34097.5
+    },
+    {
+      "month": "2014-07",
+      "records": 5,
+      "sales": 1756436.25,
+      "profit": 2456.25,
+      "margin": 0.0013984282093927405,
+      "previous_month_profit": -17027.5,
+      "profit_change": 19483.75
+    },
+    {
+      "month": "2014-08",
+      "records": 5,
+      "sales": 1062677.5,
+      "profit": -44322.5,
+      "margin": -0.041708326373711684,
+      "previous_month_profit": 2456.25,
+      "profit_change": -46778.75
+    },
+    {
+      "month": "2014-09",
+      "records": 5,
+      "sales": 797116.25,
+      "profit": -45643.75,
+      "margin": -0.05726109585647012,
+      "previous_month_profit": -44322.5,
+      "profit_change": -1321.25
+    },
+    {
+      "month": "2014-10",
+      "records": 10,
+      "sales": 1939675.0,
+      "profit": -112805.0,
+      "margin": -0.05815664995424491,
+      "previous_month_profit": -45643.75,
+      "profit_change": -67161.25
+    },
+    {
+      "month": "2014-11",
+      "records": 5,
+      "sales": 921311.25,
+      "profit": -49368.75,
+      "margin": -0.053585311152989826,
+      "previous_month_profit": -112805.0,
+      "profit_change": 63436.25
+    },
+    {
+      "month": "2014-12",
+      "records": 10,
+      "sales": 2303845.0,
+      "profit": -13835.0,
+      "margin": -0.006005178299755409,
+      "previous_month_profit": -49368.75,
+      "profit_change": 35533.75
+    }
+  ],
+  "product_country": [
+    {
+      "product": "VTT",
+      "country": "Canada",
+      "records": 4,
+      "sales": 1104828.75,
+      "net_profit": -70571.25,
+      "gross_loss": 77393.75,
+      "loss_records": 3,
+      "loss_rank": 1,
+      "loss_share": 0.09956469091768687,
+      "cumulative_loss_share": 0.09956469091768687
+    },
+    {
+      "product": "Carretera",
+      "country": "Mexico",
+      "records": 3,
+      "sales": 717517.5,
+      "net_profit": -64522.5,
+      "gross_loss": 64522.5,
+      "loss_records": 3,
+      "loss_rank": 2,
+      "loss_share": 0.08300622168762271,
+      "cumulative_loss_share": 0.18257091260530958
+    },
+    {
+      "product": "Carretera",
+      "country": "France",
+      "records": 5,
+      "sales": 1187520.625,
+      "net_profit": -56099.375,
+      "gross_loss": 61403.75,
+      "loss_records": 4,
+      "loss_rank": 3,
+      "loss_share": 0.07899404525477723,
+      "cumulative_loss_share": 0.2615649578600868
+    },
+    {
+      "product": "Carretera",
+      "country": "Germany",
+      "records": 3,
+      "sales": 513497.5,
+      "net_profit": -55182.5,
+      "gross_loss": 55182.5,
+      "loss_records": 3,
+      "loss_rank": 4,
+      "loss_share": 0.07099059751679244,
+      "cumulative_loss_share": 0.33255555537687925
+    },
+    {
+      "product": "Velo",
+      "country": "United States of America",
+      "records": 6,
+      "sales": 1299215.0,
+      "net_profit": -36865.0,
+      "gross_loss": 53456.25,
+      "loss_records": 4,
+      "loss_rank": 5,
+      "loss_share": 0.0687698297196944,
+      "cumulative_loss_share": 0.4013253850965737
+    },
+    {
+      "product": "Amarilla",
+      "country": "United States of America",
+      "records": 2,
+      "sales": 370867.5,
+      "net_profit": -39892.5,
+      "gross_loss": 39892.5,
+      "loss_records": 2,
+      "loss_rank": 6,
+      "loss_share": 0.051320480431996426,
+      "cumulative_loss_share": 0.45264586552857006
+    },
+    {
+      "product": "Montana",
+      "country": "United States of America",
+      "records": 4,
+      "sales": 1033861.25,
+      "net_profit": -33058.75,
+      "gross_loss": 35545.0,
+      "loss_records": 3,
+      "loss_rank": 7,
+      "loss_share": 0.045727554727212204,
+      "cumulative_loss_share": 0.4983734202557823
+    },
+    {
+      "product": "Velo",
+      "country": "Mexico",
+      "records": 3,
+      "sales": 672087.5,
+      "net_profit": -27512.5,
+      "gross_loss": 32875.0,
+      "loss_records": 2,
+      "loss_rank": 8,
+      "loss_share": 0.04229268143640741,
+      "cumulative_loss_share": 0.5406661016921896
+    },
+    {
+      "product": "Amarilla",
+      "country": "Germany",
+      "records": 4,
+      "sales": 1273906.25,
+      "net_profit": -4633.75,
+      "gross_loss": 31421.25,
+      "loss_records": 2,
+      "loss_rank": 9,
+      "loss_share": 0.04042247655007502,
+      "cumulative_loss_share": 0.5810885782422647
+    },
+    {
+      "product": "Paseo",
+      "country": "Germany",
+      "records": 6,
+      "sales": 1115385.0,
+      "net_profit": -21975.0,
+      "gross_loss": 28092.5,
+      "loss_records": 2,
+      "loss_rank": 10,
+      "loss_share": 0.03614014154379544,
+      "cumulative_loss_share": 0.6172287197860601
+    },
+    {
+      "product": "Paseo",
+      "country": "Mexico",
+      "records": 6,
+      "sales": 1071283.75,
+      "net_profit": -13276.25,
+      "gross_loss": 27130.0,
+      "loss_records": 2,
+      "loss_rank": 11,
+      "loss_share": 0.034901914748889214,
+      "cumulative_loss_share": 0.6521306345349493
+    },
+    {
+      "product": "Carretera",
+      "country": "United States of America",
+      "records": 2,
+      "sales": 428456.25,
+      "net_profit": -24603.75,
+      "gross_loss": 25841.25,
+      "loss_records": 1,
+      "loss_rank": 12,
+      "loss_share": 0.033243977313112176,
+      "cumulative_loss_share": 0.6853746118480615
+    },
+    {
+      "product": "Paseo",
+      "country": "France",
+      "records": 6,
+      "sales": 1250380.0,
+      "net_profit": -20660.0,
+      "gross_loss": 25220.0,
+      "loss_records": 3,
+      "loss_rank": 13,
+      "loss_share": 0.032444758200036346,
+      "cumulative_loss_share": 0.7178193700480979
+    },
+    {
+      "product": "Amarilla",
+      "country": "Canada",
+      "records": 2,
+      "sales": 371647.5,
+      "net_profit": -24832.5,
+      "gross_loss": 24832.5,
+      "loss_records": 2,
+      "loss_rank": 14,
+      "loss_share": 0.031946251308580594,
+      "cumulative_loss_share": 0.7497656213566785
+    },
+    {
+      "product": "Carretera",
+      "country": "Canada",
+      "records": 2,
+      "sales": 356716.25,
+      "net_profit": -22303.75,
+      "gross_loss": 24160.0,
+      "loss_records": 1,
+      "loss_rank": 15,
+      "loss_share": 0.031081100638892866,
+      "cumulative_loss_share": 0.7808467219955714
+    },
+    {
+      "product": "VTT",
+      "country": "United States of America",
+      "records": 2,
+      "sales": 352536.25,
+      "net_profit": -21143.75,
+      "gross_loss": 23870.0,
+      "loss_records": 1,
+      "loss_rank": 16,
+      "loss_share": 0.030708024513674367,
+      "cumulative_loss_share": 0.8115547465092458
+    },
+    {
+      "product": "Paseo",
+      "country": "United States of America",
+      "records": 4,
+      "sales": 865668.75,
+      "net_profit": -19571.25,
+      "gross_loss": 22297.5,
+      "loss_records": 3,
+      "loss_rank": 17,
+      "loss_share": 0.02868505138641199,
+      "cumulative_loss_share": 0.8402397978956577
+    },
+    {
+      "product": "Velo",
+      "country": "Canada",
+      "records": 6,
+      "sales": 792843.75,
+      "net_profit": -12596.25,
+      "gross_loss": 20293.75,
+      "loss_records": 3,
+      "loss_rank": 18,
+      "loss_share": 0.026107288331561757,
+      "cumulative_loss_share": 0.8663470862272195
+    },
+    {
+      "product": "Paseo",
+      "country": "Canada",
+      "records": 4,
+      "sales": 965142.5,
+      "net_profit": -6257.5,
+      "gross_loss": 17808.75,
+      "loss_records": 1,
+      "loss_rank": 19,
+      "loss_share": 0.022910411879258415,
+      "cumulative_loss_share": 0.8892574981064778
+    },
+    {
+      "product": "Amarilla",
+      "country": "France",
+      "records": 2,
+      "sales": 392952.5,
+      "net_profit": -17507.5,
+      "gross_loss": 17507.5,
+      "loss_records": 2,
+      "loss_rank": 20,
+      "loss_share": 0.02252286297332023,
+      "cumulative_loss_share": 0.9117803610797981
+    },
+    {
+      "product": "VTT",
+      "country": "Mexico",
+      "records": 4,
+      "sales": 280848.75,
+      "net_profit": -11231.25,
+      "gross_loss": 12886.25,
+      "loss_records": 3,
+      "loss_rank": 21,
+      "loss_share": 0.016577766271023725,
+      "cumulative_loss_share": 0.9283581273508218
+    },
+    {
+      "product": "Montana",
+      "country": "France",
+      "records": 2,
+      "sales": 367282.5,
+      "net_profit": -9997.5,
+      "gross_loss": 11606.25,
+      "loss_records": 1,
+      "loss_rank": 22,
+      "loss_share": 0.014931085442473109,
+      "cumulative_loss_share": 0.9432892127932949
+    },
+    {
+      "product": "Velo",
+      "country": "France",
+      "records": 3,
+      "sales": 379543.75,
+      "net_profit": -976.25,
+      "gross_loss": 9996.25,
+      "loss_records": 2,
+      "loss_rank": 23,
+      "loss_share": 0.012859869712811788,
+      "cumulative_loss_share": 0.9561490825061068
+    },
+    {
+      "product": "Montana",
+      "country": "Germany",
+      "records": 2,
+      "sales": 497477.5,
+      "net_profit": -7242.5,
+      "gross_loss": 9375.0,
+      "loss_records": 1,
+      "loss_rank": 24,
+      "loss_share": 0.012060650599735953,
+      "cumulative_loss_share": 0.9682097331058427
+    },
+    {
+      "product": "Velo",
+      "country": "Germany",
+      "records": 3,
+      "sales": 437547.5,
+      "net_profit": -6812.5,
+      "gross_loss": 8835.0,
+      "loss_records": 2,
+      "loss_rank": 25,
+      "loss_share": 0.01136595712519116,
+      "cumulative_loss_share": 0.9795756902310339
+    },
+    {
+      "product": "Amarilla",
+      "country": "Mexico",
+      "records": 2,
+      "sales": 234233.75,
+      "net_profit": -8286.25,
+      "gross_loss": 8286.25,
+      "loss_records": 1,
+      "loss_rank": 26,
+      "loss_share": 0.01066000704341995,
+      "cumulative_loss_share": 0.9902356972744538
+    },
+    {
+      "product": "VTT",
+      "country": "Germany",
+      "records": 2,
+      "sales": 249012.5,
+      "net_profit": -5627.5,
+      "gross_loss": 7590.0,
+      "loss_records": 1,
+      "loss_rank": 27,
+      "loss_share": 0.009764302725546226,
+      "cumulative_loss_share": 1.0
+    },
+    {
+      "product": "Montana",
+      "country": "Canada",
+      "records": 2,
+      "sales": 376312.5,
+      "net_profit": 15052.5,
+      "gross_loss": 0,
+      "loss_records": 0,
+      "loss_rank": 28,
+      "loss_share": 0.0,
+      "cumulative_loss_share": 1.0
+    },
+    {
+      "product": "Montana",
+      "country": "Mexico",
+      "records": 2,
+      "sales": 339910.0,
+      "net_profit": 4150.0,
+      "gross_loss": 0,
+      "loss_records": 0,
+      "loss_rank": 28,
+      "loss_share": 0.0,
+      "cumulative_loss_share": 1.0
+    },
+    {
+      "product": "VTT",
+      "country": "France",
+      "records": 2,
+      "sales": 313211.25,
+      "net_profit": 9491.25,
+      "gross_loss": 0,
+      "loss_records": 0,
+      "loss_rank": 28,
+      "loss_share": 0.0,
+      "cumulative_loss_share": 1.0
+    }
+  ],
+  "segment_comparison": [
+    {
+      "product": "Amarilla",
+      "segment": "Enterprise",
+      "records": 12,
+      "sales": 2643607.5,
+      "profit": -95152.5,
+      "margin": -0.035993429433075826
+    },
+    {
+      "product": "Amarilla",
+      "segment": "Small Business",
+      "records": 12,
+      "sales": 4594281.0,
+      "profit": 407281.0,
+      "margin": 0.08864956235807082
+    },
+    {
+      "product": "Amarilla",
+      "segment": "Government",
+      "records": 42,
+      "sales": 9942899.11,
+      "profit": 2208301.61,
+      "margin": 0.22209836241615047
+    },
+    {
+      "product": "Amarilla",
+      "segment": "Midmarket",
+      "records": 12,
+      "sales": 248685.44999999998,
+      "profit": 63605.45,
+      "margin": 0.25576667231637396
+    },
+    {
+      "product": "Amarilla",
+      "segment": "Channel Partners",
+      "records": 16,
+      "sales": 317643.0,
+      "profit": 230068.5,
+      "margin": 0.7242989771535969
+    },
+    {
+      "product": "Carretera",
+      "segment": "Enterprise",
+      "records": 15,
+      "sales": 3203708.125,
+      "profit": -222711.875,
+      "margin": -0.06951690550773879
+    },
+    {
+      "product": "Carretera",
+      "segment": "Small Business",
+      "records": 12,
+      "sales": 3910512.0,
+      "profit": 348012.0,
+      "margin": 0.08899397316770796
+    },
+    {
+      "product": "Carretera",
+      "segment": "Government",
+      "records": 36,
+      "sales": 6080944.08,
+      "profit": 1398994.08,
+      "margin": 0.23006198734851713
+    },
+    {
+      "product": "Carretera",
+      "segment": "Midmarket",
+      "records": 12,
+      "sales": 337305.0,
+      "profit": 94105.0,
+      "margin": 0.2789908243281303
+    },
+    {
+      "product": "Carretera",
+      "segment": "Channel Partners",
+      "records": 18,
+      "sales": 282838.68,
+      "profit": 208405.68,
+      "margin": 0.7368358528614262
+    },
+    {
+      "product": "Montana",
+      "segment": "Enterprise",
+      "records": 12,
+      "sales": 2614843.75,
+      "profit": -31096.25,
+      "margin": -0.011892201971915147
+    },
+    {
+      "product": "Montana",
+      "segment": "Small Business",
+      "records": 15,
+      "sales": 6674938.5,
+      "profit": 743313.5,
+      "margin": 0.11135885371827771
+    },
+    {
+      "product": "Montana",
+      "segment": "Government",
+      "records": 42,
+      "sales": 5548936.02,
+      "profit": 1126201.02,
+      "margin": 0.20295801139909342
+    },
+    {
+      "product": "Montana",
+      "segment": "Midmarket",
+      "records": 12,
+      "sales": 290239.05,
+      "profit": 83879.05,
+      "margin": 0.28899987785930253
+    },
+    {
+      "product": "Montana",
+      "segment": "Channel Partners",
+      "records": 12,
+      "sales": 261844.56,
+      "profit": 192457.56,
+      "margin": 0.7350069063875148
+    },
+    {
+      "product": "Paseo",
+      "segment": "Enterprise",
+      "records": 26,
+      "sales": 5267860.0,
+      "profit": -81740.0,
+      "margin": -0.01551673734685432
+    },
+    {
+      "product": "Paseo",
+      "segment": "Small Business",
+      "records": 26,
+      "sales": 11498809.5,
+      "profit": 1231309.5,
+      "margin": 0.10708147656503049
+    },
+    {
+      "product": "Paseo",
+      "segment": "Government",
+      "records": 88,
+      "sales": 14882230.7,
+      "profit": 3057290.7,
+      "margin": 0.2054322877819654
+    },
+    {
+      "product": "Paseo",
+      "segment": "Midmarket",
+      "records": 36,
+      "sales": 907729.35,
+      "profit": 258739.35,
+      "margin": 0.28504019397411795
+    },
+    {
+      "product": "Paseo",
+      "segment": "Channel Partners",
+      "records": 26,
+      "sales": 454514.4,
+      "profit": 331838.4,
+      "margin": 0.7300943600466784
+    },
+    {
+      "product": "VTT",
+      "segment": "Enterprise",
+      "records": 14,
+      "sales": 2300437.5,
+      "profit": -99082.5,
+      "margin": -0.04307115494335317
+    },
+    {
+      "product": "VTT",
+      "segment": "Small Business",
+      "records": 21,
+      "sales": 9341400.0,
+      "profit": 982150.0,
+      "margin": 0.10513948658659301
+    },
+    {
+      "product": "VTT",
+      "segment": "Government",
+      "records": 46,
+      "sales": 8235828.71,
+      "profit": 1840653.71,
+      "margin": 0.22349344247107344
+    },
+    {
+      "product": "VTT",
+      "segment": "Midmarket",
+      "records": 14,
+      "sales": 333425.85,
+      "profit": 91120.84999999999,
+      "margin": 0.27328669927661575
+    },
+    {
+      "product": "VTT",
+      "segment": "Channel Partners",
+      "records": 14,
+      "sales": 300828.96,
+      "profit": 219765.96000000002,
+      "margin": 0.7305345868296723
+    },
+    {
+      "product": "Velo",
+      "segment": "Enterprise",
+      "records": 21,
+      "sales": 3581237.5,
+      "profit": -84762.5,
+      "margin": -0.023668494479910925
+    },
+    {
+      "product": "Velo",
+      "segment": "Small Business",
+      "records": 14,
+      "sales": 6407977.5,
+      "profit": 431102.5,
+      "margin": 0.06727590725778922
+    },
+    {
+      "product": "Velo",
+      "segment": "Government",
+      "records": 46,
+      "sales": 7813422.05,
+      "profit": 1756732.05,
+      "margin": 0.22483516681400822
+    },
+    {
+      "product": "Velo",
+      "segment": "Midmarket",
+      "records": 14,
+      "sales": 264498.375,
+      "profit": 68653.375,
+      "margin": 0.2595606683783974
+    },
+    {
+      "product": "Velo",
+      "segment": "Channel Partners",
+      "records": 14,
+      "sales": 182924.04,
+      "profit": 134267.04,
+      "margin": 0.7340043440982388
+    }
+  ],
+  "controls": {
+    "enterprise_records": 100,
+    "enterprise_sales": 19611694.375,
+    "enterprise_net_profit": -614545.625,
+    "enterprise_gross_loss": 777321.25,
+    "positive_profit_offsets": 162775.625,
+    "top_three_loss_share": 0.2615649578600868,
+    "loss_making_months": 13,
+    "calendar_months": 16,
+    "reconciliation": "PASS"
+  }
+}

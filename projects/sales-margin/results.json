@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "source_sha256": "c3f17156ab7c192571ecfc742e88c16a4b7243a4d4b4a420fcb68dec44e10196",
+    "generated_utc": "2026-11-05T19:58:49.210898+00:00",
+    "rows": 700,
+    "date_min": "2013-09-01",
+    "date_max": "2014-12-01",
+    "checks": "Schema, completeness, row accounting identities, aggregate reconciliation passed",
+    "exact_duplicate_rows": 0
+  },
+  "summary": {
+    "records": 700,
+    "sales": 118726350.26,
+    "profit": 16893702.26,
+    "margin": 0.14229109395685385,
+    "discounts": 9205248.24,
+    "discount_rate": 0.07195445337924078,
+    "loss_records": 58,
+    "loss_magnitude": 777321.25
+  },
+  "segments": [
+    {
+      "segment": "Government",
+      "sales": 52504260.67,
+      "profit": 11388173.17,
+      "margin": 0.21689998153820303
+    },
+    {
+      "segment": "Small Business",
+      "sales": 42427918.5,
+      "profit": 4143168.5,
+      "margin": 0.09765193878177172
+    },
+    {
+      "segment": "Channel Partners",
+      "sales": 1800593.64,
+      "profit": 1316803.14,
+      "margin": 0.7313161119462801
+    },
+    {
+      "segment": "Midmarket",
+      "sales": 2381883.075,
+      "profit": 660103.075,
+      "margin": 0.27713496179907987
+    },
+    {
+      "segment": "Enterprise",
+      "sales": 19611694.375,
+      "profit": -614545.625,
+      "margin": -0.031335672137711455
+    }
+  ],
+  "products": [
+    {
+      "product": "Paseo",
+      "sales": 33011143.95,
+      "profit": 4797437.95,
+      "margin": 0.14532783102780056
+    },
+    {
+      "product": "VTT",
+      "sales": 20511921.02,
+      "profit": 3034608.02,
+      "margin": 0.14794362834378738
+    },
+    {
+      "product": "Amarilla",
+      "sales": 17747116.06,
+      "profit": 2814104.06,
+      "margin": 0.15856683702782975
+    },
+    {
+      "product": "Velo",
+      "sales": 18250059.465,
+      "profit": 2305992.465,
+      "margin": 0.126355339796149
+    },
+    {
+      "product": "Montana",
+      "sales": 15390801.88,
+      "profit": 2114754.88,
+      "margin": 0.13740381407599536
+    },
+    {
+      "product": "Carretera",
+      "sales": 13815307.885,
+      "profit": 1826804.885,
+      "margin": 0.1322304866606308
+    }
+  ],
+  "discount_bands": [
+    {
+      "discount_band": "None",
+      "sales": 7943654.0,
+      "profit": 1736455.0,
+      "margin": 0.21859650483266266,
+      "discount_rate": 0.0
+    },
+    {
+      "discount_band": "Low",
+      "sales": 34629778.7,
+      "profit": 6188857.7,
+      "margin": 0.17871490758328176,
+      "discount_rate": 0.02493775773022981
+    },
+    {
+      "discount_band": "Medium",
+      "sales": 38780430.835,
+      "profit": 5579522.835,
+      "margin": 0.14387469955502366,
+      "discount_rate": 0.07186051307449921
+    },
+    {
+      "discount_band": "High",
+      "sales": 37372486.725,
+      "profit": 3388866.725,
+      "margin": 0.09067811703129315,
+      "discount_rate": 0.12455111106561464
+    }
+  ],
+  "years": [
+    {
+      "year": 2013,
+      "months_covered": 4,
+      "sales": 26415255.51,
+      "profit": 3878464.51,
+      "margin": 0.14682668916572594
+    },
+    {
+      "year": 2014,
+      "months_covered": 12,
+      "sales": 92311094.75,
+      "profit": 13015237.75,
+      "margin": 0.14099321197791342
+    }
+  ]
+}
