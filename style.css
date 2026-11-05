@@ -151,3 +151,6 @@ a[href^="https://www.linkedin.com/"],a[href^="https://github.com/"]{display:inli
 /* Keep the Senior Support screenshot level on every screen and on hover. */
 .senior-cover .app-window,
 .project-open:hover .senior-cover .app-window{transform:none}
+
+/* Booking Desk project */
+.booking-cover{background:#f6f5fa}.booking-cover .margin-caption{background:#e8dffb;color:#4a3374}

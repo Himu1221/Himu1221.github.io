@@ -46,6 +46,64 @@ $$('.filter').forEach(button => button.addEventListener('click', () => {
 }));
 
 const cases = {
+  "booking": {
+  "type": "08 / BUSINESS PROCESS & DATA ANALYSIS",
+  "title": "Booking Desk — Lead-to-Booking Improvement",
+  "period": "November 2026 · Independent case study · Simulated data",
+  "subtitle": "A lead journey investigation combining relational SQL, cohort reporting, process design, and an interactive review workspace.",
+  "tags": [
+    "Python / SQLite",
+    "Business analysis",
+    "Cohort reporting",
+    "GitHub Actions"
+  ],
+  "fact": [
+    "11",
+    "Automated tests covering analytical grain, missing responses, exact 30-day boundaries, and invalid booking/quote links."
+  ],
+  "sections": [
+    [
+      "The business question",
+      "How could a fictional cleaning business manage inquiry ownership, response review, quotes, and first bookings more consistently? The project uses 360 generated leads across four related tables, with no real customer or client data."
+    ],
+    [
+      "What is implemented",
+      "Built reproducible SQL/Python analysis and a browser workspace with shared cohort filters, monthly conversion trends, unanswered/late categories, search, pagination, individual lead journeys, and filtered CSV exports. Event tables are rolled up before joining to prevent double-counting leads."
+    ],
+    [
+      "Business analysis and handoff",
+      "Documented current and proposed processes, nine pending discovery questions, an assumption and decision log, eight prioritized user stories, acceptance criteria, a data-model diagram, and a SQL walkthrough. Proposed CRM features are distinguished from implemented reporting."
+    ],
+    [
+      "Validation and recommendation",
+      "Added source-key and sequence checks, eleven automated tests, and a GitHub Actions workflow. Recommend discovery and a shared inquiry-queue pilot before selecting a CRM. The 30-day conversion window and response threshold are explicit demonstration assumptions; no causal uplift or client improvement is claimed."
+    ]
+  ],
+  "resources": [
+    [
+      "Launch Booking Desk",
+      "/projects/booking-desk/dashboard.html"
+    ],
+    [
+      "Discovery and decision log",
+      "https://github.com/Himu1221/lead-to-booking-analysis/blob/main/docs/discovery-and-decisions.md"
+    ],
+    [
+      "Prioritized backlog",
+      "https://github.com/Himu1221/lead-to-booking-analysis/blob/main/docs/implementation-backlog.md"
+    ],
+    [
+      "Data model and SQL walkthrough",
+      "https://github.com/Himu1221/lead-to-booking-analysis/blob/main/docs/sql-walkthrough.md"
+    ],
+    [
+      "Automated checks",
+      "https://github.com/Himu1221/lead-to-booking-analysis/actions/workflows/analysis-checks.yml"
+    ]
+  ],
+  "repo": "https://github.com/Himu1221/lead-to-booking-analysis",
+  "note": "Independent demonstration for a fictional business. All data is simulated with seed 1221. Interviews, stakeholder approvals, CRM operations, and measured improvements have not occurred. Source-level figures describe the simulation, not industry performance."
+},
   "margin": {
   "type": "07 / DATA & BUSINESS ANALYSIS",
   "title": "Sales & Margin Investigation",
