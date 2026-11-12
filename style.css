@@ -154,3 +154,6 @@ a[href^="https://www.linkedin.com/"],a[href^="https://github.com/"]{display:inli
 
 /* Booking Desk project */
 .booking-cover{background:#f6f5fa}.booking-cover .margin-caption{background:#e8dffb;color:#4a3374}
+
+.stockwise-cover{background:#0b1522}.stockwise-cover .margin-caption{background:#142a3d;color:#8ee9f5}
+.stockwise-cover>img{height:100%;object-fit:contain;object-position:top center}

@@ -46,6 +46,56 @@ $$('.filter').forEach(button => button.addEventListener('click', () => {
 }));
 
 const cases = {
+  "stockwise": {
+    "type": "09 / OPERATIONS & DATA ANALYSIS",
+    "title": "StockWise — Inventory & Reordering Analysis",
+    "period": "Independent portfolio case study · Simulated retail data",
+    "subtitle": "A purchasing dashboard for spotting stockout risk, checking supplier arrivals, and building a budget-constrained reorder plan.",
+    "tags": [
+      "SQL / SQLite",
+      "Python",
+      "Excel",
+      "Scenario modeling"
+    ],
+    "fact": [
+      "4,320",
+      "Daily inventory observations across 48 simulated products."
+    ],
+    "sections": [
+      [
+        "The purchasing decision",
+        "Which products need attention, when could demand go unmet, and how much can the buyer order within budget? The dashboard combines availability, supplier delivery history, and a purchase plan with pack rounding."
+      ],
+      [
+        "Arrival scenarios",
+        "Open any product to compare promised receipts with a three-day delay. The 14-day projection shows the first day demand could go unmet and identifies overdue orders that need confirmation."
+      ],
+      [
+        "Policy comparison",
+        "Over 30 simulated test days, the lead-based rule reduced product-days with unmet demand from 215 to 166 and lowered average daily inventory by CAD 2,184.52. The value of purchase orders placed increased by CAD 3,842.16. Both policies ran without a shared budget cap."
+      ],
+      [
+        "Reproducibility",
+        "The repository includes SQL, Python, the editable Excel purchasing model, the simulation ledger, and 14 analysis tests. The model and dashboard make the planning assumptions visible."
+      ]
+    ],
+    "resources": [
+      [
+        "Launch StockWise dashboard",
+        "/projects/stockwise/dashboard.html"
+      ],
+      [
+        "Projection and backtest methodology",
+        "https://github.com/Himu1221/stockwise-inventory-analysis/blob/main/docs/policy-evaluation.md"
+      ],
+      [
+        "Excel purchasing model",
+        "https://github.com/Himu1221/stockwise-inventory-analysis/blob/main/StockWise-Purchasing-Model.xlsx"
+      ]
+    ],
+    "repo": "https://github.com/Himu1221/stockwise-inventory-analysis",
+    "note": "This independent case study uses simulated retail data. The policy results apply to the modeled test period."
+  },
   "booking": {
   "type": "08 / BUSINESS PROCESS & DATA ANALYSIS",
   "title": "Booking Desk — Lead-to-Booking Improvement",
